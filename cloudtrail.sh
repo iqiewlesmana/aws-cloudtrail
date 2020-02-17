@@ -12,7 +12,7 @@
 
 START=$(date --date="5 day ago" +"%Y-%m-%dT%H:%M:%SZ")
 
-MAX_RESULTS=1
+MAX_RESULTS=5
 echo "List of All Event Name with following information :
  - AWS Access Key used in an event ( AccessKeyId )
  - Event time ( EventTime )
