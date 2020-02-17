@@ -19,11 +19,11 @@ List of All Event Name with following information :
 ### Function : lookup_eventname, List Event and return the information : 
 ### Username | EventTIme | EventName | accessKeyId | Resources | awsRegion | sourceIPAddress |
 
-**function lookup_eventname
+** function lookup_eventname
 * ```./cloudtrail.sh lookup_eventname```
 
-**function filterby_ipaddress
+** function filterby_ipaddress
 * ```./cloudtrail.sh filterby_ipaddress```
 
-**function lookupby_resourcetype
+** function lookupby_resourcetype
 * ```/cloudtrail.sh lookupby_resourcetype```
