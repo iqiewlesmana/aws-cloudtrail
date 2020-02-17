@@ -16,13 +16,12 @@ List of All Event Name with following information :
   * jq https://stedolan.github.io/jq/ ( sudo apt-get install jq )
 
 ## How to use
-### Function : lookup_eventname, 
 
-** function lookup_eventname | List Event by Username | EventTime | EventName | accessKeyId | Resources | awsRegion | sourceIPAddress |
+### function lookup_eventname | List Event by Username | EventTime | EventName | accessKeyId | Resources | awsRegion | sourceIPAddress |
 * ```./cloudtrail.sh lookup_eventname```
 
-** function filterby_ipaddress | Filter the results by source IP address
+### function filterby_ipaddress | Filter the results by source IP address
 * ```./cloudtrail.sh filterby_ipaddress```
 
-** function lookupby_resourcetype | Ability to get the list of event by resource type
+### function lookupby_resourcetype | Ability to get the list of event by resource type
 * ```/cloudtrail.sh lookupby_resourcetype```
